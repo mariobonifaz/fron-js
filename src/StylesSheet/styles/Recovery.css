@@ -1,0 +1,36 @@
+#papa3 {
+    height: 80vh;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: initial;
+}
+#img{
+    top: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+#recpass{
+    position: relative;
+    background-color: transparent;
+    top: -50px;
+}
+#juas{
+    color: antiquewhite;
+}
+#cosota{
+    background-color: transparent;
+    border-radius: 20px;
+}
+#boton3{
+    background-color: #329696;
+    position: relative;
+    margin-top: 15px;
+    border-radius: 20px;
+}

@@ -1,0 +1,28 @@
+.app{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: initial;
+}
+#img{
+    top: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+#btnV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnVB{
+    background-color: #81ecec;
+    position: relative;
+    border-radius: 20px;
+}
